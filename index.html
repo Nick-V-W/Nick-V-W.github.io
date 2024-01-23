@@ -1,1 +1,269 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nick V Wislocki HTML Page</title>
+</head>
+<body>
+	<div style="text-align: center;">
+        <link rel="stylesheet" rel="noopener" href="style.css">
+	    <h1 id="header">Welcome to my HTML Page!</h1>
+	</div>
+	<div align="center">
+	   <h3 id="bubble-1" style="text-align: left;">Hello! I'm Nicholas Wislocki.
+	       You can see me  in the picture to the right. I am a sophomore
+	       computer science major at OSU. This html page is meant to show my
+	       portfolio of work, and the skills I offer. This html page works best
+	       when used in conjunction with the "style.css" file, but the CSS is
+	       not necessary to navigate the page.
+	   </h3>
+	   <h3 id="bubble-2" style="text-align: left;">To check out my projects, you
+	       can navigate directly to my GitHub page here: -------------><a
+	       target="_blank" href="https://github.com/Nick-V-W"><br>Github</a>
+	   </h3>
+	   <h3 id="bubble-3" style="text-align: left;">Or, you can scroll down to
+	       find images, links, and descriptions for my projects. If you have any
+	       questions, or would like to know more, you can always contact me at
+		   wislocki.3@buckeyemail.osu.edu or nickvwislocki@gmail.com (Thank
+		   you!).
+	   </h3>
+	   <img id= "img-1" src="Images\PicOfMe.jpg" id="Nick_W" alt="Nick W"
+	       width="300" height="400" />
+	</div>
+	<div style="text-align: center;">
+	   <hr style="width:75%">
+	   <p>
+	       <label for="project-select">Please select a project you would like
+	       to view:</label>
+	       <select name="Project Select" id="project-select"
+	           onchange="projects()">
+	           <option value=1>2D Game</option>
+	           <option value=2>Hackathon Entry</option>
+	           <option value=3>Calculator</option>
+	           <option value=4>HTML Page</option>
+	       </select>
+       </p>
+	</div>
+	<div id="platforms">
+		<div id="platformBlurb" style="display: inline-block;">
+	       <h2>2D Platform Game -- <a target="_blank"
+	           href="https://github.com/BoomBanger/ProjectSquare">Github Repo</a></h2>
+	       <p>This game was a project my friend and I developed during our senior
+	           year of high school in 2022. The screenshots on the right show the UI
+	           of the game. In the bottom left of the screenshots of the game, you
+	           will see a blue square. This square is controllable by the player.
+	           The goal of the game was to get the blue square all the way to the
+	           top of the screen. However, the following obstacles are in the way:
+	       </p>
+	       <ul>
+	           <li>Black Rectangles: The player can not pass through these. They act
+	               as walls and platforms guiding the player. Some of these
+	               platforms can move, either up and down, or left and right.</li>
+	           <li>Red Rectangles: If the player touches these, they are sent back
+	               to the start of the game. Conceptually, these act like lava and a
+	               dangerous hazard that must be avoided.</li>
+	           <li>Green Rectangles: These rectangles function similarly to the
+	               black rectangles, except that they can disappear. They are set on
+	               a timer to loop from an "appeared" state to a "disappeared"
+	               state, and their color changes throughout this loop.</li>
+	       </ul>
+	       <p>While developing this game, I was in charge creating the user
+	           interface of the game, the level structure, bounding the platforms,
+	           and performance optimization.</p>
+	    </div>
+
+	    <div id="platformPics" style="display: inline-flex;">
+	       <img id="startGame" src="Images\2DGameStart.png" alt="Starting screen for
+	           game" width="206" height="86" />
+	       <img id="game1" src="Images\2DGameScreenShot.png" alt="Example level for
+	           game" width="350" height="278"/>
+	       <img id="game2" src="Images\2DGameMove.png" alt="Example of platforms
+	           that moved or disappeared" width="350" height="278"/>
+	    </div>
+	</div>
+
+	<div id="hackathon" style="display: none">
+	   <div id="hackathonBlurb" style="display: inline-block;">
+       <h2>Hyland Hackathon Submission -- <a target="_blank"
+           href="https://github.com/BoomBanger/DungeonMastery">Github Repo</a>
+       </h2>
+       <p>This was a project my friend and I developed during a Hackathon hosted
+           Hyland Software. This Hackathon had a 48-hr time limit, and took
+           place in April, 2022. We created a map-creation software that
+           was designed to be useful for D&D players, and other tabletop games.
+           These are the following features of the software that I helped
+           develop:</p>
+       <ul>
+           <li>The first picture on the right shows the start screen for the
+               software. Since it is a map making software, the software makes
+               grid based maps. The sliders at the front are used to determine
+               the dimensions of the map that you would like to make. Clicking
+               the button "Generate Blank Layout Map" takes us to the second
+               picture.</li>
+           <li>On this screen, the user clicks the black squares that form the
+               grid for the map to create the "shape" of the map. Since this
+               software was made with D&D in mind, these layouts are presumably
+               used for dungeons. The map here is 5x5 because the sliders on the
+               last screen were set to 5x5. Clicking the "Process User Drawn
+               Map" button takes us to the third picture.</li>
+           <li>Here, the user can adjust parameters of the map, like rounding
+               the corners and making the walls more bumpy and rough. This is
+               done through the use of sliders again. This is so the map can
+               simulate cave walls instead of building, or create a more natural
+               feel to the map. From here, the user can download the map, or
+               they can continue to detail the map. This would take us to the
+               fourth picture.</li>
+           <li>In this fourth picture, the user can add the final touches to
+               their map. They can add grid lines and scale the grid lines, they
+               can add markers of doors, and they can add markers with numbers
+               on them to signify places of note. Using the text box on the
+               bottom of the screen, they can add descriptions of these markers
+               for note taking purposes. They can then finalize everything by
+               downloading the notes into a text file, and the map into a jpg or
+               png file.</li>
+       </ul>
+       <p>If this software is interesting, you can take a closer look at the
+           project at the Github repo. The software was compiled into the .exe
+           file found on the repository.
+       </p>
+       </div>
+
+       <div id="hackathonPics" style="display: inline-flex;">
+       <figure id="dungeonStart">
+           <img src="Images\DungeonStart.png" alt="Starting screen
+               for dungeon master software" width="250" height="203" />
+           <figcaption>Image 1 -- Start screen</figcaption>
+       </figure>
+       <figure id="dungeonGrid" >
+           <img src="Images\DungeonGrid.png" alt="Grid based map where user
+           clicks squares to form a shape" width="250" height="177"/>
+           <figcaption>Image 2 -- Drawing screen</figcaption>
+       </figure>
+       <figure id="dungeonOptions">
+           <img src="Images\DungeonOptions.png" alt="Screen
+           where user can change parameters of map they drew" width="450"
+           height="209"/>
+           <figcaption>Image 3 -- Parameter Screen</figcaption>
+       </figure>
+       <figure id="dungeonMarkers">
+           <img src="Images\DungeonMarkers.png" alt="Screen
+           where user can change parameters of map they drew" width="570"
+           height="345"/>
+           <figcaption>Image 4 -- Markup Screen</figcaption>
+       </figure>
+       </div>
+	</div>
+
+	<div id="calculator" style="display: none">
+	   <div id="calculatorBlurb" style="display: inline-block;">
+       <h2>Personal Calculator -- <a target="_blank"
+           href="https://github.com/Nick-V-W/Calculator">Github Repo</a></h2>
+       <p>This calculator was the first project I ever developed. I worked on it
+           alone in 2021. While it is not a finished calculator, it contains a
+           couple of particularly convenient features. For example, the
+           calculator offers dynamically changing buttons. This means that that
+           the buttons can disable themselves if the current input in the
+           calculator could pose a problem when processing. Take the input "78+".
+           In "Image 1", you can see that all of the operation buttons are
+           disabled. The calculator sees that the current input ends in an
+           operation, and thus disables all operation buttons from being pressed
+           to prevent two operation symbols being typed next to each other.
+           Similarly, the decimal point can only be pressed if the current
+           number does not already have a decimal point in it. This is shown in
+           the second picture. Given that this is my oldest project, it is the
+           least reflective of my current capabilities as a programmer, however,
+           it still offers some insight into a couple of my skills: </p>
+       <ul>
+           <li>I have been working with GUIs and user based applications for
+               several years now.</li>
+           <li>I like to pursue useful features in programs I write. The dynamic
+               buttons are an example of this.</li>
+           <li>I am a motivated and hard-working individual. I wrote this
+               program in the summer before I was a senior in high school, a
+               long time before I received formal education in computer science.
+           </li>
+       </ul>
+       <p>It should be noted that since creating this project, I have created
+           another working calculator for one of my classes at OSU
+           (CSE 2221 - Software 1) using Java. Details for the project can be
+           found here: <a target="_blank" href="https://web.cse.ohio-state.edu/software/2221/web-sw1/assignments/projects/natural-number-calculator/natural-number-calculator.html">
+           CSE-2221: NaturalNumber Calculator</a>
+       </p>
+       </div>
+
+       <div id="calculatorPics" style="display: inline-flex;">
+       <figure id="calcOperation" >
+           <img src="Images\CalculatorOperation.png" alt="Calculator
+           with calculation including a 'plus' sign" width="350" height="167" />
+           <figcaption>Image 1</figcaption>
+       </figure>
+       <figure id="calcDecimal">
+           <img  src="Images\CalculatorDecimal.png" alt="Calculator
+           with calculation including a decimal" width="350" height="167" />
+           <figcaption>Image 2</figcaption>
+       </figure>
+       <figure id="calcFinal">
+           <img  src="Images\CalculatorFinalCalc.png" alt="Calculator
+           with calculation including a decimal" width="350" height="167" />
+           <figcaption>Image 3</figcaption>
+       </figure>
+       </div>
+	</div>
+
+    <div id="htmlPage" style="display: none;">
+        <h2>This HTML Page! -- <a target="_blank"
+            href="https://github.com/notverywise/HTML_Page">Github Repo</a></h2>
+        <p>This HTML Page is one that I made completely by myself, for myself!
+            It uses a combination of HTML and CSS, with a little bit of Java as
+            well, and makes use of several HTML and CSS features. This HTML page
+            will continue to be updated as I work on more projects and gain more
+            experience in my field of study. This project has been worked on
+            since the start of 2024.
+        </p>
+    </div>
+
+    <script>
+    function projects() {
+       var x = document.getElementById("project-select").value;
+       if (x == 1) {
+    	    var elemText = document.getElementById("platforms");
+    	    elemText.style.display = "inline-block";
+            var elemText = document.getElementById("hackathon");
+            elemText.style.display = "none";
+            var elemText = document.getElementById("calculator");
+            elemText.style.display = "none";
+            var elemText = document.getElementById("htmlPage");
+            elemText.style.display = "none";
+       } else if (x == 2) {
+           var elemText = document.getElementById("platforms");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("hackathon");
+           elemText.style.display = "inline-block";
+           var elemText = document.getElementById("calculator");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("htmlPage");
+           elemText.style.display = "none";
+
+       } else if (x == 3) {
+           var elemText = document.getElementById("platforms");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("hackathon");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("calculator");
+           elemText.style.display = "inline-block";
+           var elemText = document.getElementById("htmlPage");
+           elemText.style.display = "none";
+       } else if (x == 4 ) {
+           var elemText = document.getElementById("platforms");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("hackathon");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("calculator");
+           elemText.style.display = "none";
+           var elemText = document.getElementById("htmlPage");
+           elemText.style.display = "inline-block";
+       }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+html {
+  background-color: black
+}
+
+#header {
+	color: black;
+	font-family: Tahoma, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    background-color: lightblue;
+}
+
+#bubble-1  {
+  margin: 20px;
+  display: inline-flex;
+  vertical-align: top;
+  width: 500px;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
+#bubble-2  {
+  margin-left: -750px;
+  margin-right: 250px;
+  margin-top: 44px;
+  display: inline-flex;
+  vertical-align: middle;
+  width: 500px;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: orange;
+}
+
+#bubble-3  {
+  margin-left: -570px;
+  display: inline-flex;
+  vertical-align: bottom;
+  width: 500px;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
+#img-1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  background-color: orange;
+}
+
+p label {
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
+p select {
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: orange;
+}
+
+#platformBlurb {
+  width: 700px;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+#platformPics {
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  background-color: orange;
+  width: 750px;
+}
+
+#hackathonBlurb {
+  width: 700px;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
+#hackathonPics {
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  background-color: orange;
+  width: 750px;
+}
+
+#calculatorBlurb {
+  width: 700px;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
+#calculatorPics {
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  background-color: orange;
+  width: 750px;
+}
+
+#startGame {
+  vertical-align: top;
+  margin-left: 272px;
+}
+
+#game1 {
+  vertical-align: bottom;
+  margin-left: -450px;
+  margin-top: 100px;
+  margin-right: 5px;
+}
+
+#game2 {
+  margin-top: 100px;
+}
+
+#calcOperation {
+  margin-left: 40px;
+}
+
+#calcDecimal {
+  margin-top: 210px;
+  margin-left: -230px;
+}
+
+#calcFinal {
+  margin-top: 400px;
+  margin-left: -220px;
+}
+
+#dungeonStart {
+  margin-left: 50px;
+}
+
+#dungeonOptions {
+  margin-top: 280px;
+  margin-left: -470px;
+}
+
+#dungeonMarkers {
+  margin-top: 540px;
+  margin-left: -600px;
+}
+
+#htmlPage {
+  width: 1450px;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+  font-family: Tahoma, Helvetica, sans-serif;
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+  background-color: lightblue;
+}
+
