@@ -9,15 +9,18 @@ html {
     background-color: lightblue;
 }
 
+.introBubbles {
+    display: inline-flex; 
+    width: 500px;
+    color: black;	
+    font-family: Tahoma, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+}
+
 #bubble-1  {
   margin: 20px;
-  display: inline-flex; 
   vertical-align: top;
-  width: 500px;
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
   background-color: lightblue;
 }
 
@@ -25,25 +28,13 @@ html {
   margin-left: -750px;
   margin-right: 250px;
   margin-top: 44px;
-  display: inline-flex; 
   vertical-align: middle;
-  width: 500px;
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
   background-color: orange;
 }
 
 #bubble-3  {
-  margin-left: -570px;
-  display: inline-flex; 
+  margin-left: -570px; 
   vertical-align: bottom;
-  width: 500px;
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
   background-color: lightblue;
 }
 
@@ -60,18 +51,15 @@ html {
   background-color: orange;
 }
 
-p label {
+.selection {
   color: black;
   font-family: Tahoma, Helvetica, sans-serif;
   padding: 10px 10px 10px 10px;
   background-color: lightblue;
 }
 
-p select {
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  padding: 10px 10px 10px 10px;
-  background-color: orange;
+#project-select {
+  background-color: orange !important;
 }
 
 .description {
@@ -84,21 +72,8 @@ p select {
   padding: 10px 10px 10px 10px;
   background-color: lightblue;
 }
-#platformPics {
-  padding: 10px 10px 10px 10px;
-  border-radius: 25px;
-  background-color: orange;
-  width: 750px;
-}
 
-#hackathonPics {
-  padding: 10px 10px 10px 10px;
-  border-radius: 25px;
-  background-color: orange;
-  width: 750px;
-}
-
-#calculatorPics {
+.pictureBubble {
   padding: 10px 10px 10px 10px;
   border-radius: 25px;
   background-color: orange;

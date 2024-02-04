@@ -10,22 +10,23 @@
 	    <h1 id="header">Welcome to my HTML Page!</h1>
 	</div>
 	<div align="center">
-	   <h3 id="bubble-1" style="text-align: left;">Hello! I'm Nicholas Wislocki. 
-	       You can see me  in the picture to the right. I am a sophomore 
-	       computer science major at OSU. This html page is meant to show my 
-	       portfolio of work, and the skills I offer. This html page works best 
-	       when used in conjunction with the "style.css" file, but the CSS is 
-	       not necessary to navigate the page.
+	   <h3 class="introBubbles" id="bubble-1" style="text-align: left;">Hello! 
+	       I'm Nicholas Wislocki. You can see me  in the picture to the right. I 
+	       am a sophomore computer science major at OSU. This html page is meant
+	       to show my portfolio of work, and the skills I offer. This html page 
+	       works best when used in conjunction with the "style.css" file, but 
+	       the CSS is not necessary to navigate the page.
 	   </h3>
-	   <h3 id="bubble-2" style="text-align: left;">To check out my projects, you 
-	       can navigate directly to my GitHub page here: -------------><a 
+	   <h3 class="introBubbles" id="bubble-2" style="text-align: left;">To check
+	       out my projects, you can navigate directly to my GitHub page here: 
+	       -------------><a 
 	       target="_blank" href="https://github.com/Nick-V-W"><br>Github</a>
 	   </h3>	
-	   <h3 id="bubble-3" style="text-align: left;">Or, you can scroll down to 
-	       find images, links, and descriptions for my projects. If you have any
-	       questions, or would like to know more, you can always contact me at
-		   wislocki.3@buckeyemail.osu.edu or nickvwislocki@gmail.com (Thank 
-		   you!).
+	   <h3 class="introBubbles" id="bubble-3" style="text-align: left;">Or, you 
+	       can scroll down to find images, links, and descriptions for my 
+	       projects. If you have any questions, or would like to know more, you 
+	       can always contact me at wislocki.3@buckeyemail.osu.edu or 
+	       nickvwislocki@gmail.com (Thank you!).
 	   </h3>
 	   <img id= "img-1" src="Images\PicOfMe.jpg" id="Nick_W" alt="Nick W" 
 	       width="300" height="400" />
@@ -33,9 +34,9 @@
 	<div style="text-align: center;">
 	   <hr style="width:75%">
 	   <p>
-	       <label for="project-select">Please select a project you would like 
-	       to view:</label>
-	       <select name="Project Select" id="project-select" 
+	       <label class="selection" for="project-select">Please select a project 
+	       you would like to view:</label>
+	       <select class="selection" name="Project Select" id="project-select" 
 	           onchange="projects()">
 	           <option value=1>2D Game</option>
 	           <option value=2>Hackathon Entry</option>
@@ -72,7 +73,7 @@
 	           and performance optimization.</p>
 	    </div>
 	    
-	    <div id="platformPics" style="display: inline-flex;">
+	    <div class="pictureBubble" style="display: inline-flex;">
 	       <img id="startGame" src="Images\2DGameStart.png" alt="Starting screen for 
 	           game" width="206" height="86" />
 	       <img id="game1" src="Images\2DGameScreenShot.png" alt="Example level for 
@@ -128,7 +129,7 @@
        </p>
        </div>
     
-       <div id="hackathonPics" style="display: inline-flex;">
+       <div class="pictureBubble" style="display: inline-flex;">
        <figure id="dungeonStart">
            <img src="Images\DungeonStart.png" alt="Starting screen
                for dungeon master software" width="250" height="203" />
@@ -191,7 +192,7 @@
        </p>
        </div>
     
-       <div id="calculatorPics" style="display: inline-flex;">
+       <div class="pictureBubble" style="display: inline-flex;">
        <figure id="calcOperation" >
            <img src="Images\CalculatorOperation.png" alt="Calculator 
            with calculation including a 'plus' sign" width="350" height="167" />
