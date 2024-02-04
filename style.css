@@ -11,7 +11,7 @@ html {
 
 #bubble-1  {
   margin: 20px;
-  display: inline-flex;
+  display: inline-flex; 
   vertical-align: top;
   width: 500px;
   color: black;
@@ -25,7 +25,7 @@ html {
   margin-left: -750px;
   margin-right: 250px;
   margin-top: 44px;
-  display: inline-flex;
+  display: inline-flex; 
   vertical-align: middle;
   width: 500px;
   color: black;
@@ -37,7 +37,7 @@ html {
 
 #bubble-3  {
   margin-left: -570px;
-  display: inline-flex;
+  display: inline-flex; 
   vertical-align: bottom;
   width: 500px;
   color: black;
@@ -74,7 +74,7 @@ p select {
   background-color: orange;
 }
 
-#platformBlurb {
+.description {
   width: 700px;
   text-align: left;
   vertical-align: top;
@@ -91,33 +91,11 @@ p select {
   width: 750px;
 }
 
-#hackathonBlurb {
-  width: 700px;
-  text-align: left;
-  vertical-align: top;
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
-  background-color: lightblue;
-}
-
 #hackathonPics {
   padding: 10px 10px 10px 10px;
   border-radius: 25px;
   background-color: orange;
   width: 750px;
-}
-
-#calculatorBlurb {
-  width: 700px;
-  text-align: left;
-  vertical-align: top;
-  color: black;
-  font-family: Tahoma, Helvetica, sans-serif;
-  border-radius: 25px;
-  padding: 10px 10px 10px 10px;
-  background-color: lightblue;
 }
 
 #calculatorPics {
@@ -163,7 +141,7 @@ p select {
 
 #dungeonOptions {
   margin-top: 280px;
-  margin-left: -470px;
+  margin-left: -470px;	
 }
 
 #dungeonMarkers {
@@ -179,6 +157,6 @@ p select {
   font-family: Tahoma, Helvetica, sans-serif;
   border-radius: 25px;
   padding: 10px 10px 10px 10px;
-  background-color: lightblue;
+  background-color: lightblue;	
 }
 
